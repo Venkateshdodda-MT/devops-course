@@ -52,6 +52,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'vedodtestwebapp'
-          slot-name: 'Production'
+          slot-name: 'teststating'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2F3D79ADC0CE4AFBA26CCCBD330A539B }}
           package: .
